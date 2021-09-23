@@ -5,7 +5,7 @@ import argparse
 from bs4 import BeautifulSoup
 import json
 import pytz
-from ustclogin import Login
+from ustclogin2 import Login
 class Report(object):
     def __init__(self, stuid, password, data_path):
         self.stuid = stuid
